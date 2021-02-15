@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+body {
+  background-image:url('https://thumbs.dreamstime.com/b/smartphone-pencil-white-background-using-wallpaper-background-business-work-copyspace-smartphone-pencil-96814113.jpg');
+  background-position:center;
+  background-size:cover;
+  
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+  font-family: 'Verdana,sans-serif', cursive!important;
+}
+
+.container {
+    padding: 90px 50px 150px 800px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff!important;
+    opacity: 1; /* Firefox */
+    font-size:18px!important;
+}
+.form-login {
+    background-color: #c0958d;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius:15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    font-color:#000000;
+    font-size:22px;
+    text-align:center;
+    box-shadow:0 1px 0 #400080;
+}
+.form-control{
+    background:transparent;
+    color:white!important;
+    font-size: 18px!important;
+}
+h1{
+    color:white!important;
+    font:bold;
+}
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+.text-white{
+    color: #400040!important;
+}
+.wrapper {
+    text-align: center;
+}
+.footer p{
+	 font-color:#400040;
+    font-size:22px;
+}

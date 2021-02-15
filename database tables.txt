@@ -1,0 +1,17 @@
+create database edubridge;
+use edubridge;
+
+create table users(userid varchar(20),
+password varchar(20),
+fname varchar(20),
+lname varchar(20),
+email varchar(20));
+select * from users;
+
+create table mobileuser(
+fname varchar(20), 
+lname varchar(20),
+ m_email varchar(20),
+ m_pass varchar(20),
+ mobile varchar(30),
+ price long);
